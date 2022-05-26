@@ -1,0 +1,18 @@
+#p1{
+    border-radius: 1em;
+    border: none;
+}
+#p2{
+    border-radius: 1em;
+    border: none;
+}
+#reset{
+    border-radius: 1em;
+    border: none;
+}
+select{
+    border-radius:1em;
+}
+body{
+    background-color: aqua;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Counter</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="score.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="card" style="width: 25rem">
+          <img
+            src="https://media.istockphoto.com/photos/ping-pong-paddle-and-table-with-net-picture-id92285366?b=1&k=20&m=92285366&s=170667a&w=0&h=OkildVY7rIoayYgBUJO8JmjTVnUgOKrraBrRSKxcBvw="
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h6 class="card-title">Score keeper</h6>
+            <hr />
+            <h1 id="h1" style="display: inline">0</h1>
+            <h1 style="display: inline">to</h1>
+            <h1 id="h2" style="display: inline">0</h1>
+            <p class="card-text">use buttons below to keep score</p>
+            <p>
+              Playing to
+              <select id="sel">
+                <option>choose</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+              </select>
+            </p>
+            <div class="row">
+              <button class="col-4 bg-info" id="p1">+1PlayerOne</button>
+              <button class="col-4 bg-success" id="p2">+1PlayerTwo</button>
+              <button class="col-4 bg-danger" id="reset">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 id="win"></h1>
+      </div>
+    </div>
+    <script src="score.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
